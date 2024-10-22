@@ -4,7 +4,7 @@ Task Tracker program from https://roadmap.sh/projects/task-tracker for people wh
 
 # Quick start
 
-- Install package with `pip install .`
+- Install package with `pip install git+https://github.com/Cooperos/Task-Tracker-CLI`
 - Run in console `task-cli -h` to see help info. You can add `-h` flag to all arguments to see description.
 
 if you are having trobles with using `task-cli` command try setting up PYTHONPATH with `export PYTHONPATH="$HOME/path/to/project/src:$PYTHONPATH"` in Linux and `set PYTHONPATH=C:\path\to\project\src;%PYTHONPATH%` in Windows
